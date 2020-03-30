@@ -1,0 +1,34 @@
+.main{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    margin-top: 4%;
+    background-color:  rgba(0, 0, 0, 0.048);
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    display: flexbox;
+    
+}
+.container{
+    width: 75%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.divBtn{
+    margin-top: 5%;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.btn-menu{
+    width: 80%;
+    height: 50%;
+    border-radius: 1px;
+    
+}
+.graphic{
+    width: 60%;
+}

@@ -1,0 +1,34 @@
+
+<div class="main">
+   
+    <div class="menu">
+        <div class="divBtn"> <button class="btn-menu" (click)="showPie()">Pie Model</button></div>
+        <div class="divBtn"> <button class="btn-menu" (click)="showBar()">Bar Model</button></div>
+        <div class="divBtn"> <button class="btn-menu" (click)="showRadar()">Radar Model</button></div>
+        <div class="divBtn"> <button class="btn-menu" (click)="showDoughnut()">Doughnut Model</button></div>
+    </div>
+
+    
+
+        <div class="graphic" *ngIf="barGraphic">
+            <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
+                [legend]="barChartLegend" [chartType]="barChartType"></canvas>
+        </div>
+
+        <div class="graphic" *ngIf="doughnutGraphic">
+            <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels"
+                [chartType]="doughnutChartType"></canvas>
+        </div>
+
+
+        <div class="graphic" *ngIf="radarGraphic">
+            <canvas baseChart [datasets]="radarChartData" [labels]="radarChartLabels"
+                [chartType]="radarChartType"></canvas>
+        </div>
+
+        <div class="graphic" *ngIf="pieGraphic">
+            <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType"></canvas>
+        </div>
+
+    
+</div>

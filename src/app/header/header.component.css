@@ -1,0 +1,26 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    border-bottom: solid 0.5px rgba(0, 0, 0, 0.151);
+}
+.header .divheaderOne{
+    width: 60%;
+    
+}
+.header .divheaderOne .title{
+    margin-left: 16%;
+    font-size: 8vh;
+   color: rgba(0, 0, 0, 0.451);
+}
+
+.header .divheaderTwo{
+    width: 40%;
+    
+}
+
+.header .divheaderTwo .title2{
+    font-size: 4vh;
+    margin-left: 10%;
+    color: rgba(0, 0, 0, 0.151);
+}
