@@ -8,7 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '', component: HeaderComponent,  children: [{
-    path: 'bar-chart', component: GraphicsChartComponent}]
+    path: '', component: GraphicsChartComponent}]
   }
 ];
 

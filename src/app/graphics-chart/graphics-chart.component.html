@@ -12,12 +12,12 @@
 
         <div class="graphic" *ngIf="barGraphic">
             <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
-                [legend]="barChartLegend" [chartType]="barChartType"></canvas>
+                [legend]="barChartLegend" [chartType]="barChartType" [colors]="barColors" ></canvas>
         </div>
 
         <div class="graphic" *ngIf="doughnutGraphic">
             <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels"
-                [chartType]="doughnutChartType"></canvas>
+                [chartType]="doughnutChartType" [colors]="doughnutColors"></canvas>
         </div>
 
 
@@ -27,7 +27,7 @@
         </div>
 
         <div class="graphic" *ngIf="pieGraphic">
-            <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType"></canvas>
+            <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType" [colors]="pieColors"></canvas>
         </div>
 
     
